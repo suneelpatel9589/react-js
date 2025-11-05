@@ -72,3 +72,5 @@ package.json----	प्रोजेक्ट की जानकारी और
 package-lock.json--	dependencies के versions (npm automatically banata hai)
 README.md-------	प्रोजेक्ट का विवरण
 vite.config.js--	Vite की settings
+
+react two type componets--: classname
