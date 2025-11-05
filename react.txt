@@ -1,0 +1,74 @@
+app.jsx-main.jsx-index.html-browser
+React JS Introduction:
+
+Framework vs Library:
+➤ Framework में पहले से बने नियम (rules) होते हैं।
+➤ Library का उपयोग हम अपनी ज़रूरत के हिसाब से करते हैं।
+👉 React एक Library है, Framework नहीं।
+
+React Works For:
+
+Web Apps → React JS
+
+Mobile Apps → React Native
+
+Component-Based Architecture:
+➤ React में पूरा web page छोटे-छोटे components में बंटा होता है।
+➤ हर component का अपना UI और data होता है।
+➤ Components को import/export करके बार-बार इस्तेमाल (reusability) किया जा सकता है।
+
+State:
+➤ React में state data को change करने के लिए use होती है।
+➤ Example:
+
+<h1>Suneel</h1>  
+
+
+यहाँ "Suneel" एक data है, जो state के अंदर आ सकता है।
+
+DOM (Document Object Model):
+
+Real DOM: Original HTML structure
+
+Virtual DOM: React का copy version, जो changes को fast update करता है
+➤ React दोनों का उपयोग करता है ताकि performance बेहतर हो सके।
+
+first we have to go to project dicrectory then  we have to install the node modules->npm instal
+
+
+🧾 XML (eXtensible Markup Language)
+XML एक markup language है (HTML जैसी)।
+यह डेटा को store और transfer करने के लिए इस्तेमाल होती है।
+
+🧩 JSX (JavaScript XML)
+JSX React में इस्तेमाल होने वाला syntax है जो JavaScript और HTML/XML का मिश्रण होता है।
+इससे हम HTML जैसा कोड JavaScript के अंदर लिख सकते हैं।
+
+🔧 JSX के कुछ बेसिक नियम:
+
+1️⃣	JSX में सिर्फ़ एक ही parent element होना चाहिए।
+2️⃣	हर tag को बंद (close) करना जरूरी है।
+3️⃣	CSS class के लिए className लिखते हैं, class नहीं।
+4️⃣	JS expression {} में लिखा जाता है।
+5️⃣	JSX को हमेशा return() के अंदर लिखा जाता है।
+
+rules of jsx-- app.jsx--main.jsx--index.html--browser 
+app.jsx--is a root component
+
+
+public/----	Static फाइलें (images, logo, आदि)
+src/-------	सारा React कोड (project ka main folder)
+assets/-----images, icons, fonts (extra file)
+App.jsx----	मुख्य React component (ui ka structure)
+App.css----	App की styling (App.jsx का style sheet)
+index.css--	पूरे ऐप की styling (global CSS or sabhi components pe effect karta hai)
+main.jsx---	ऐप का entry point ( pura app browser me render hota hai)
+
+.gitignore-	Git में ignore की जाने वाली files
+
+eslint.config.js---	कोड की गलती जांचने के लिए
+index.html------	React को लोड करने वाली HTML
+package.json----	प्रोजेक्ट की जानकारी और dependencies
+package-lock.json--	dependencies के versions (npm automatically banata hai)
+README.md-------	प्रोजेक्ट का विवरण
+vite.config.js--	Vite की settings
