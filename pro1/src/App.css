@@ -1,1 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:orange;
+    padding: 10px 60px;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap:100px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 20px 40px;
+    
+
+}
+.hero div h1{
+    margin-bottom: 30px;
+    margin-left: 20px;
+
+}
+.hero div p{
+    line-height: 30px;
+    background-color: white;
+    padding: 20px 30px;
+    border-left: 8px solid red;
+    border-right: 8px solid red;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    text-align: center;
+
+}
+.hero div img{
+    border-radius:5px
+    
+}
+/* pay */
+.pay{
+    align-items: center;
+    background-color:rgb(243, 202, 148);
+    padding: 60px 40px;
+    text-align: center;
+    line-height: 60px;
+
+}
+.pay div input{
+    background-color:skyblue ;
+    padding: 8px 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px;
+    border:1px solid black;
+}
+.pay div button{
+    background-color:skyblue;
+    padding: 8px 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px;
+    border:1px solid black;
+}
+/* contact */
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(127, 223, 255);
+    padding: 100px 30px;
+    gap: 60px;
+    
+}
+.div1{
+    background-color: white;
+    border: 2px solid black;
+    padding: 30px 30px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px 5px black;
+    line-height: 30px;
+}
+.btn{
+    background-color: white;
+    border: 2px solid black;
+    padding: 40px 40px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px 5px black;
+    
+}
+.btn button{
+    background-color: skyblue;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
 

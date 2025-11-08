@@ -73,4 +73,68 @@ package-lock.json--	dependencies के versions (npm automatically banata hai)
 README.md-------	प्रोजेक्ट का विवरण
 vite.config.js--	Vite की settings
 
-react two type componets--: classname
+⚛️ React ke 2 type ke Components--->
+
+1️⃣ Functional Component (Function-based)
+2️⃣ Class Component (Class-based)
+
+<>...</>
+👉 इसे React Fragment कहते हैं — इसका इस्तेमाल तब किया जाता है
+ जब हम बिना extra <div> बनाए 
+ multiple elements return करना चाहते हैं।
+
+ jsx ke ander kisi variable ko likhne ke liye {} likhege
+
+ css--- inline 
+
+ {{}}--object {}key:value
+ // function About(){
+//     let name = 'cybrom'
+//     let age =20
+//     let gender = 'male'
+//     let state = 'mp'
+//     let city = 'satna'
+//     let mystyle ={
+//         backgroundColor:'pink',
+//         padding:'20px',
+        
+//     }
+//     return(
+//         <>
+//         <h1 style={{backgroundColor:'red',color:'white'}}>about</h1>
+//         <h1>{name}</h1>
+//         <h1>{age}</h1>
+//         <h1 style={mystyle}>{gender}</h1>
+//         <h1>{state}</h1>
+//         <h1>{city}</h1>
+    
+
+//         </>
+//     )
+// }
+// export default About
+function Payment(){
+    return(
+        <>
+        <h1>this is a payment</h1>
+    
+
+        </>
+    )
+}
+
+
+function Paymentus(){
+    return(
+        <>
+        <h1>this is a paymentus</h1>
+    
+
+        </>
+    )
+}
+export {Payment,Paymentus}  //named export
+
+Attribute-- (App में)	Props भेजने का तरीका
+Parameter-- (Child में)	Props को प्राप्त करने का तरीका
+Destructuring--	Props से values अलग-अलग निकालने का तरीका

@@ -1,0 +1,199 @@
+            Task 1: Welcome Message Component
+            -------------------------------
+
+chlid.jsx---
+
+function Welcome() {
+  return (
+    <div className="hero">
+      <h1>Welcome to React!</h1>
+      <p>Let’s build amazing projects together</p>
+    </div>
+  )
+}
+
+export default Welcome
+
+app.jsx
+---------------------
+
+import Welcome from './Child.jsx'
+import './App.css'
+function App() {
+  return (
+    <>
+    <Welcome/>
+    
+    </>
+
+  )
+}
+
+export default App
+-----------------------
+app.css
+
+.hero {
+  text-align: center;         
+  background-color:pink;  
+  padding: 40px;             
+  border-radius: 12px;        
+  max-width: 500px;
+  margin-left: 30%;
+  margin-top: 100px;
+}   
+
+.hero h1 {
+  color:black;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.hero p {
+  color: #074480;
+  font-size: 30px;
+}
+
+***************************************************
+                      Task 2: Simple Banner Section
+
+function Banner() {
+  return (
+    <div className="banner">
+        <div>
+        <h1>Learn React with Qasim</h1>
+        <p>Build skills, build future.</p>
+        <button className="sonbtn">Get Started</button>
+      </div>
+      </div>
+      
+    
+  )
+}
+export default Banner
+
+app.jsx--
+
+import Banner from './Child.jsx'
+import './App.css'
+function App() {
+  return (
+    <>
+    <Banner/>
+    
+    </>
+  )
+
+  }
+export default App
+
+app.css--
+
+
+.banner {
+  background:rgb(15, 166, 225);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size:45px;
+  margin-bottom: 15px;
+}
+
+.banner p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.sonbtn {
+  background-color:azure;
+  color:red;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+---------------------------------------------------------
+
+                                        Task 3: Three-Box layout
+                                        ------------------------
+
+child.jsx---
+
+function Box() {
+  return (
+    <section className="soon">
+      <div className="box">
+        <h2>HTML</h2>
+        <p>Structure your web pages with semantic elements.</p>
+      </div>
+
+      <div className="box">
+        <h2>CSS</h2>
+        <p>Style your pages beautifully with colors and layouts.</p>
+      </div>
+
+      <div className="box">
+        <h2>React</h2>
+        <p>Build dynamic, modern web apps using components.</p>
+      </div>
+    </section>
+  )
+}
+
+export default Box
+
+app.js----
+
+import Box from './Child'
+import './App.css'
+function App() {
+  return (
+    <>
+    <Box/>
+    
+    </>
+  )
+
+  }
+export default App
+
+app.css
+--------
+.soon {
+  display: grid;                          
+  grid-template-columns: auto auto auto; 
+  gap: 20px;                             
+  padding: 30px;
+  background-color: #f48a44;
+  justify-items: center               
+}
+
+.box {
+  background-color: #b0e1f1;
+  border-radius: 12px;
+  padding: 25px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 1px 4px 10px black;
+  
+}
+
+.box:hover {
+  transform: translateY(5px);
+}
+
+.box h2 {
+  color: #0950e9;
+  margin-bottom: 10px;
+}
+
+.box p {
+  color: #464e5c;
+}

@@ -1,0 +1,32 @@
+
+.soon {
+  display: grid;                          
+  grid-template-columns: auto auto auto; 
+  gap: 20px;                             
+  padding: 30px;
+  background-color: #f48a44;
+  justify-items: center               
+}
+
+.box {
+  background-color: #b0e1f1;
+  border-radius: 12px;
+  padding: 25px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 1px 4px 10px black;
+  
+}
+
+.box:hover {
+  transform: translateY(5px);
+}
+
+.box h2 {
+  color: #0950e9;
+  margin-bottom: 10px;
+}
+
+.box p {
+  color: #464e5c;
+}

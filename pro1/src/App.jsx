@@ -1,10 +1,18 @@
-import About from './About'
+
+import Navbar from './Nav'
+import About  from './About'
+import Payment  from './Payment'
+import Contact  from './Contact'
+import './App.css'
+
 function App(){
   return(
     <>
-      <h1>hii</h1>
-      <h1>react javascript</h1>
-      <About/>
+     <Navbar/>
+     <About/>
+     <Payment/>
+     <Contact/>
+
     </>
   )
 }
