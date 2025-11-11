@@ -1,0 +1,4 @@
+state ----hook 
+(usestate) arrey return [variable,function]
+let[variable,function]=usestate(8)
+a=8
