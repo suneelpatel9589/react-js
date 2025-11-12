@@ -1,9 +1,18 @@
+import Parent from "./Parent"
+import Section from "./Section"
 function App() {
     return (
+       
+           
         <>
-        <h1 className="text-pink">my class is a  aaaparent</h1>
-
+        
+        <Parent/>
+        <Section/>
+        
+        
         </>
+
+        
     )
 }
 export default App
