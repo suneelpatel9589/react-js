@@ -1,32 +1,17 @@
-import { useState } from "react"
+
+import Bgcolor from "./Bgcolor"
+import Counter from "./Counter"
+import Hero from "./Hero"
+
+
 
 
 function App(){
-  let[data,setdata]=useState(32)
-function demo(a){
-    alert("working",+a)
-    setdata(90)
-  }
-  function dblclick(){
-    alert("working")
-  }
-  function enclick(){
-    alert("working")
-  }
-  function leclick(){
-    
-    alert("xcvbn")
-  }
   return(
     <>
-    <h1>my class is a parent-{data}</h1>
-
-    <button onClick={()=>demo('react')}>click</button><hr/><br />
-
-    <button onDoubleClick={dblclick}>double click</button><hr/>
-    <button onMouseEnter={enclick}>enter</button><hr/>
-    <button onMouseLeave={leclick}>click hre </button>
-
+    {/* <Hero/> */}
+    <Counter/>
+    <Bgcolor/>
     </>
   )
 }
