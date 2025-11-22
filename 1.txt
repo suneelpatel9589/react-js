@@ -49,3 +49,15 @@ function demo(a){
   )
 }
 export default App
+
+
+useEffect hook React में API call करने या किसी component में effect देने के लिए किया जाता है।
+
+3 type -
+1.without dependency-> run every time--useEffect(function) हर render पर चलेगा
+2.with empty dependency-> one time run-- useEffect (function,[])सिर्फ एक बार चलेगा (component mount पर)
+3.with  dependency->useEffect(function,[color])जब dependency बदले तभी चलेगा
+
+syntax -useEffect(function,dependency)
+
+onchange={} event object pass hoga jiski help se 

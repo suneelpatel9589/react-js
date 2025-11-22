@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Nav/>
-      <Service/>
+  
     
 
       <Routes>
@@ -17,6 +17,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/About" element={<About/>}/>
         <Route path="/Contact" element={<Contact/>}/>
+        <Route path="/Service" element={<Service/>}/>
 
     
       </Routes>

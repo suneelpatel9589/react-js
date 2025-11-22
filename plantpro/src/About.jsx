@@ -7,13 +7,13 @@ import { faCartShopping} from '@fortawesome/free-solid-svg-icons'
 
 function About(){
     return(
-      <section className=' bg-green-600 p-10'>
+      <section className=' bg-green-600 p-2'>
     
 
         <h1 style={{textAlign:"center" ,fontFamily:"Bad Script" ,fontSize:"30px",marginTop:"35px",color:"orange",fontWeight:"bold"}}>Your Choice Plant</h1>
         <p className='text-center mt-3'>Follow intruction for more</p>   
 
-        <div className='flex justify-around items-center bg-green-600 mt-30 p-18 gap-30'>
+        <div className='flex justify-around items-center bg-green-600 mt-30 p-10 gap-30'>
               <div className='bg-green-800 h-62 w-60 rounded-md'>
             <img src="cart-1.png" alt="" className='relative -translate-y-[105px]  h-48  ml-6'/>
             <p className='ml-6 position-relative -translate-y-[90px] text-white italic'>Nephrolepis exatata</p>

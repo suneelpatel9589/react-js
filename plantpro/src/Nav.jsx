@@ -21,12 +21,13 @@ function Nav(){
                 </div>
                 <div>
                 
-                    <h1 className="text-white hover:text-orange-400"><Link to="/">Review</Link></h1>
+                    <h1 className="text-white hover:text-orange-400"><Link to="/Contact">Review</Link></h1>
                 </div>
                 <div className="pl-35">
                     <i class="fa-solid fa-bars"></i>
 
                 </div>
+                
 
             </ul>
  </nav>
