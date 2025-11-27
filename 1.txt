@@ -61,3 +61,4 @@ useEffect hook React में API call करने या किसी compone
 syntax -useEffect(function,dependency)
 
 onchange={} event object pass hoga jiski help se 
+

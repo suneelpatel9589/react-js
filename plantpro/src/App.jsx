@@ -16,21 +16,16 @@ function App() {
         
         
         
-        <Nav/>
-        
        
-
-        
-        
-        
-
+    
             <Routes>
                 
-                       
-                        <Route path="/Home" element={<Home/>}/>
+                    <Route path="/" element={<Nav/>}>
+                        <Route index element={<Home/>}/>
                         <Route path="/About2" element={<About2/>}/>
                         <Route path="/About" element={<About/>}/>
                         <Route path="/Contact" element={<Contact/>}/>
+                    </Route>
                         
             </Routes>
             
