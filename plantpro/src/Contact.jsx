@@ -2,8 +2,11 @@
 
 function Contact() {
     return (
-       <section className="bg-green-800 p- ">
-        <h1 style={{textAlign:"center",fontFamily:"Bad Script", fontSize:"30px",color:"orange"}}>Costumer Review</h1>
+      <>
+ 
+
+              <section className="bg-green-800 pb-20 pt-5  ">
+        <h1 style={{textAlign:"center",fontFamily:"Bad Script", fontSize:"30px",color:"orange" }}>Costumer Review</h1>
         <p className="text-center text-white text-sm mt-2">Follow intruction for more</p>
 
         <div className="flex justify-evenly p-20">
@@ -85,14 +88,18 @@ function Contact() {
 
         </div>
 
+        </section>
 
-        <div className="bg-green-900  translate-y-[80px] rounded w-350  h-40  ml-16 pt-6">
+
+
+
+        <div className="bg-green-900  translate-y-[-70px] rounded w-350  h-40  ml-16 pt-6">
           <h1 className="text-3xl mb-3 ml-30"><span className="text-orange-500">Subscribe</span> to our newsletter</h1>
           <input type="text" placeholder="Your Email Address" className="w-250 h-11 bg-white  pl-5 rounded-sm ml-30 " /><button className=" px-4 py-2 ml-2 rounded-sm bg-green-600">subscribe</button>
         </div>
 
 
-        <div className=" flex justify-around  bg-white text-green-700 pt-40 p-20  list-none">
+        <div className=" flex justify-around  bg-white text-green-700 pb-10 list-none">
 
          <div>
           <img src="leaf.png" alt="" className="w-13 h-13  ml-11" />
@@ -126,9 +133,21 @@ function Contact() {
          </div>
         </div>
 
+
+
+
+
+
+
+        </>
+
       
 
-       </section>
+       
+
+      
+
+        
     );
 }
 

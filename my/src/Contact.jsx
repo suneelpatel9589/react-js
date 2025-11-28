@@ -1,17 +1,52 @@
 import { useState } from "react"
 
 
-function Contact(){
 
-    let[toggle,settoggle] = useState(false)
+function Contact(){
+    let[toggle,setoggle]=useState(false)
+     let[frmdata,setfrmdata]=useState({})
+    function hdl(e){
+        let{name,value}= e.target
+        setfrmdata({...frmdata,[name]:value})
+
+    }
+    function final(e){
+        e.preventDefault()
+        console.log(frmdata);
+        localStorage.setItem('userdata',JSON.stringify(frmdata))
+        
+
+    }
+     let localdata=JSON.parse(localStorage.getItem('userdata')
+
+)
+
     return(
         <>
-        <h1>contact</h1>
+        <form action="" onSubmit={final}>
+          
+            <label htmlFor="">name</label>
+            <input type="text"  name="name" onChange={hdl}/> <br />
 
-        <button onClick={()=>settoggle(!toggle)}> {toggle ? "good morning" : "good night"  }</button>
+            
+            <label htmlFor="">age</label>
+            <input type="text"  name="age" onChange={hdl}/> <br />
 
-        {toggle ? <h1>good morning</h1>:<h1>good night</h1>}
-        
+            
+            <label htmlFor="">email</label>
+            <input type="text"  name="email" onChange={hdl}/> <br />
+
+            <input type="submit" />
+        </form>
+
+
+
+        <button onClick={()=>setoggle(!toggle)}>  {toggle ? "hello" :"bye"} </button>
+
+        {toggle ? <h1>hello</h1> :<h1>bye</h1>}
+
+
+
         
         </>
     )
