@@ -18,12 +18,13 @@ function Form(){
         
     }
     useEffect(() => {
-       let val = JSON.parse(localStorage.getItem('userdata'))
-       setlocaldata(val)
+       let data = JSON.parse(localStorage.getItem('userdata'))
+       setlocaldata(data)
     },[handelsumbit])
 
     function Delete(){
-        localStorage.clear(localdata)
+        localStorage.removeItem('userdata')
+         setlocaldata({});
     }
 
    
