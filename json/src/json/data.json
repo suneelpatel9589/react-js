@@ -1,0 +1,39 @@
+{
+  "userdata": [
+    {
+      "name": "suneel",
+      "age": "22",
+      "contact": "1234567890",
+      "city": "satna",
+      "id": "05be"
+    },
+    {
+      "id": "c6d8",
+      "name": "alok",
+      "age": "23",
+      "contact": "1234",
+      "city": "bihar"
+    },
+    {
+      "id": "d841",
+      "name": "krish",
+      "age": "13",
+      "contact": "123",
+      "city": "satna"
+    },
+    {
+      "id": "c0f2",
+      "name": "suman",
+      "age": "25",
+      "contact": "12345",
+      "city": "amarpatan"
+    },
+    {
+      "id": "1b36",
+      "name": "gautam",
+      "age": "24",
+      "contact": "6263456798",
+      "city": "bihar"
+    }
+  ]
+}

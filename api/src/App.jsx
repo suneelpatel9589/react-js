@@ -18,6 +18,7 @@ function App(){
 
     <table border="4">
       <tr>
+        <th>id</th>
         <th>name</th>
         <th>age</th>
         <th>contact</th>
@@ -26,6 +27,7 @@ function App(){
       {
         apidata.map((e)=>(
           <tr>
+            <th>{e.id}</th>
             <th>{e.name}</th>
             <th>{e.age }</th>
             <th>{e.contact}</th>
