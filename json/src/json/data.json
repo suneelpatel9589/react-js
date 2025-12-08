@@ -1,39 +1,44 @@
 {
-  "userdata": [
+  "userdetails": [
     {
-      "name": "suneel",
-      "age": "22",
-      "contact": "1234567890",
+      "id": "1630",
+      "age": "23",
       "city": "satna",
-      "id": "05be"
+      "contact": "1234",
+      "email": "suneelpatel9589@gmail.com",
+      "password": "123",
+      "name": "suneel patel"
     },
     {
-      "id": "c6d8",
-      "name": "alok",
+      "id": "3508",
+      "name": "abhay",
+      "age": "45",
+      "city": "bihar",
+      "contact": "1234",
+      "email": "suneelpatel9589@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "03a3",
+      "city": "bihar",
+      "name": "aman",
+      "age": "34",
+      "contact": "99993115348",
+      "email": "suneelpatel9589@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "35e5",
+      "name": "alok kumar ji",
       "age": "23",
       "contact": "1234",
-      "city": "bihar"
+      "city": "bihar",
+      "email": "suneelpatel9589@gmail.com",
+      "password": "123"
     },
     {
-      "id": "d841",
-      "name": "krish",
-      "age": "13",
-      "contact": "123",
-      "city": "satna"
-    },
-    {
-      "id": "c0f2",
-      "name": "suman",
-      "age": "25",
-      "contact": "12345",
-      "city": "amarpatan"
-    },
-    {
-      "id": "1b36",
-      "name": "gautam",
-      "age": "24",
-      "contact": "6263456798",
-      "city": "bihar"
+      "id": "b8ea",
+      "name": "alok"
     }
   ]
 }

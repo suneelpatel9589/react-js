@@ -1,5 +1,5 @@
 import Form from "./Form"
-import OrderReceipt from "./Order"
+
  
 
 
@@ -9,8 +9,8 @@ function App(){
     <>
    
    <h1>app</h1>
-   {/* <Form/> */}
-   <OrderReceipt/>
+   <Form/>
+ 
 
     </>
   )

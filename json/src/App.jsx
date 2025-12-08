@@ -1,17 +1,19 @@
-import { Route, Routes } from 'react-router-dom'
-import Form from './Component/Form'
-import Showdata from './Component/Showdata'
+import { Route, Routes } from "react-router-dom"
+import Frm from "./Component.jsx/Form.jsx"
+import Showdata from "./Component.jsx/Showdata.jsx"
 
-
-function App() {
-  return (
+function APP(){
+  return(
     <>
-      <Routes>
-        <Route index element={<Form />} />
-        <Route path="/Showdata" element={<Showdata/>} />
-      </Routes>
+    
+    <Routes>
+      <Route index element={<Frm/>}/>
+      <Route path="/Showdata" element={<Showdata/>}/>
+    </Routes>
+    
+    
     </>
   )
 }
 
-export default App
+export default APP
