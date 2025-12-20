@@ -1,0 +1,10 @@
+.card-wrapper {
+  padding: 0 10px; /*左右 में gap */
+}
+
+.card {
+  background: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
